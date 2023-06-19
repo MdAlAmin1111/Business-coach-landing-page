@@ -168,7 +168,6 @@ span.material-symbols-outlined.floating {
     max-width: 100%;
     flex-wrap: wrap;
     padding: 100px 0px;
-    /* padding: 50px; */
 }
 .sub3-part1{
     padding: 25px;
@@ -224,3 +223,50 @@ span.material-symbols-outlined.floating {
     cursor: pointer;
 }
 /* sub3-main end */
+
+
+/* sub4-main start  */
+.sub4-main{
+    background-color: #171420;
+    padding: 150px 0px;
+}
+.sub4-part1{
+    text-align: center;
+}
+.sub4-part1 > h1{
+    margin-top: 0;
+    color:white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sub4-part1 > p{
+    color: lightgray;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.sub4-part2 {
+    text-align: center;
+    position: relative;
+    /* visibility: hidden; */
+}
+.sub4-part2-iframe{
+    z-index: 2;
+}
+.sub4-part2-img{
+    max-width: 1030px;
+    position:absolute;
+    text-align: center;
+    top: 0px;
+    left: 160px;
+    z-index: 2;
+
+}
+.sub4-part2-img:hover{
+    /* visibility:hidden; */
+    cursor: pointer;
+    z-index:1;
+}
+
+
+/* sub4-main end  */
