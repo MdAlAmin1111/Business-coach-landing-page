@@ -263,10 +263,68 @@ span.material-symbols-outlined.floating {
 
 }
 .sub4-part2-img:hover{
-    /* visibility:hidden; */
+    visibility:hidden;
     cursor: pointer;
     z-index:1;
 }
 
 
 /* sub4-main end  */
+
+
+
+/* sub5-main start */
+.sub5-main{
+    background-color: #1F1C2C;
+    
+}
+.sub5-main-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:first baseline;
+    padding: 30px;
+    align-content:flex-start;
+}
+.sub5-heading > h1 {
+    margin-top: 0;
+    padding: 100px 100px 00px 100px;
+
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+.sub5-card-part1{
+    display: flex;
+    flex-direction: row;
+}
+.sub5-main{
+    max-width: 100%;
+}
+.sub5-card{
+    max-width: 28%;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #39325A;
+    border-radius: 20px;
+    background-color: #35284A;
+    background-image: linear-gradient(#223A57, #28243A, #332747);
+    color: lightgray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sub5-card-part1-img{
+    /* margin:auto 0px; */
+    padding-right: 10px;
+    /* border:1px solid #F0F1F1; */
+}
+.sub5-card-part1-haedingAndPara{
+    line-height: 10px;
+}
+.sub5-card-part2{
+    line-height: 2;
+    font-size: 18px;
+    color:#BEB5A7;
+}
+
+/* sub5-main end */
